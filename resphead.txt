@@ -1,0 +1,95 @@
+Res_Head[0]= HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 19 Jan 2015 11:40:42 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Last-Modified: Mon, 19 Jan 2015 09:04:12 GMT
+Content-Encoding: gzip
+Res_Head[1]= HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 19 Jan 2015 11:40:42 GMT
+Content-Type: text/css
+Content-Length: 253
+Connection: keep-alive
+Timing-Allow-Origin: *
+Expires: Mon, 19 Jan 2015 11:40:42 GMT
+Cache-Control: private, max-age=86400
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Alternate-Protocol: 80:quic,p=0.02
+Res_Head[2]= HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 19 Jan 2015 11:40:42 GMT
+Content-Type: text/javascript; charset=UTF-8
+Content-Length: 29185
+Connection: keep-alive
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Last-Modified: Mon, 02 Apr 2012 18:24:28 GMT
+Expires: Sat, 16 Jan 2016 22:44:53 GMT
+Access-Control-Allow-Origin: *
+Timing-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: public, max-age=31536000
+Age: 219349
+Alternate-Protocol: 80:quic,p=0.02
+Res_Head[3]= HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 19 Jan 2015 11:40:42 GMT
+Content-Type: text/javascript; charset=UTF-8
+Content-Length: 24050
+Connection: keep-alive
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Last-Modified: Mon, 02 Apr 2012 18:24:28 GMT
+Expires: Wed, 13 Jan 2016 16:22:26 GMT
+Access-Control-Allow-Origin: *
+Timing-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: public, max-age=31536000
+Age: 501496
+Alternate-Protocol: 80:quic,p=0.02
+Res_Head[4]= HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 19 Jan 2015 11:40:42 GMT
+Content-Type: text/css
+Content-Length: 1587
+Connection: keep-alive
+Cache-Control: max-age=315360000
+Expires: Thu, 31 Dec 2037 23:55:55 GMT
+Accept-Ranges: bytes
+Last-Modified: Tue, 16 Sep 2014 19:25:23 GMT
+Res_Head[5]= HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 19 Jan 2015 11:40:42 GMT
+Content-Type: application/x-javascript
+Content-Length: 12634
+Connection: keep-alive
+Cache-Control: max-age=315360000
+Expires: Thu, 31 Dec 2037 23:55:55 GMT
+Accept-Ranges: bytes
+Last-Modified: Tue, 16 Sep 2014 19:25:18 GMT
+Res_Head[6]= HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 19 Jan 2015 11:40:43 GMT
+Content-Type: image/png
+Content-Length: 13958
+Connection: keep-alive
+Cache-Control: max-age=315360000
+Expires: Thu, 31 Dec 2037 23:55:55 GMT
+Accept-Ranges: bytes
+Last-Modified: Tue, 16 Sep 2014 19:25:11 GMT
+Res_Head[7]= HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 19 Jan 2015 11:40:43 GMT
+Content-Type: image/png
+Content-Length: 209
+Connection: keep-alive
+Cache-Control: max-age=315360000
+Expires: Thu, 31 Dec 2037 23:55:55 GMT
+Accept-Ranges: bytes
+Last-Modified: Tue, 16 Sep 2014 19:25:11 GMT

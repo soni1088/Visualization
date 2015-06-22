@@ -1,0 +1,14 @@
+newid,source,target
+1,0,http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd
+2,0,http://www.w3.org/1999/xhtml'>
+3,0,http://fonts.googleapis.com/css?family=Open+Sans:300'
+4,0,http://ajax.googleapis.com/ajax/libs/prototype/1.6.0.2/prototype.js
+5,0,http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js
+6,0,http://blog.textie.me
+7,0,https://textie.me
+8,1,http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff)
+9,2,http://www.prototypejs.org/
+10,2,http://www.yui-ext.com/
+11,3,http://jquery.com/
+12,3,http://jquery.org/license
+13,3,http://sizzlejs.com/

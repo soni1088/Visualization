@@ -1,0 +1,25 @@
+ www.borange.com
+ |-- /   [0]
+ |-- /stylesheets/borange_main_packaged.css?1410895522   [4]
+ |-- /javascripts/website_packaged.js?1410895519   [5]
+ |-- /images/borange.logo@2x.png?1410895511   [6]
+ |-- /images/bg.grad.png   [7]
+
+
+ fonts.googleapis.com
+ |-- /css?family=Open+Sans:300   [1]
+
+
+ ajax.googleapis.com
+ |-- /ajax/libs/prototype/1.6.0.2/prototype.js   [2]
+ |-- /ajax/libs/jquery/1.4.1/jquery.min.js   [3]
+
+
+
+Info of Client: 
+
+ IP               :  192.168.109.128
+ MAC              :  00:50:56:31:2b:bc
+ PRAGMA           :  no-cache
+ USER-AGENT       :  Mozilla/5.0 (Windows NT 5.1; rv:30.0) Gecko/20100101 Firefox/30.0
+

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<style> /* set the CSS */
+
+body { font: 16px Arial;
+	background-color:white;}
+	
+h1 {text-align:center;
+	color: blue;}
+	
+#list  p {
+    position: relative;
+    top: 50px;
+    left: 40px;
+    font: Arial;
+    font-size: 14px;
+	  color: black;
+    background-color: none ;
+}
+
+path { 
+    stroke: black;
+    stroke-width: 2;
+    fill: none;
+}
+path.d {
+  fill: none;
+  stroke: black;
+  stroke-width: 1.5px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+.link {
+  fill: none;
+  stroke: black;
+  stroke-opacity: .2;
+}
+
+circle {
+        fill: steelblue;
+        fill-opacity: 1;
+        cursor: pointer; }
+        circle.selected {
+          fill: red;
+          stroke: red; }
+        circle:hover {
+          fill: yellow;
+          stroke: steelblue; }
+        circle.selected:hover {
+          fill: white;
+          stroke: red; }
+
+text {
+  fill: black;
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+
+div.tooltip {
+  position: absolute;   
+  text-align: center;   
+  width: 150px;  
+  height: 28px;     
+  padding: 2px; 
+  font: 12px sans-serif;    
+  border: 0px;                  
+  border-radius: 8px;
+}
+
+</style>
+
+<body>
+
+  <h1><u>WELCOME TO HTTP FLOW VISUALIZATION!</u></h1>
+	<p>&nbsp;</p>
+    <p style= "position: absolute; left: 275px; top: 100px; color: red"><u>HOST FLOW DETAILS</u><h5 style= "position: absolute; left: 290px; top: 115px; color:gray">(Slide to view more)</h5></p>
+  <p>&nbsp;</p>
+
+  <div id="list">      
+    <p><iframe src="hosts.txt" frameborder="0" height="300"
+        width="30%" align= "bottom"></iframe></p>
+  </div>
+	    
+	<p>&nbsp;</p>
+    <p style= "position: absolute; right: 600px; top: 100px; color: red; font: Arial;
+    font-size: 14px;"><u>Click button below to view graph</u></p>
+    <p style= "position: absolute; right: 270px; top: 100px; color: red; font: Arial;
+    font-size: 14px;"><u>Hit refresh to reset</u></p>
+  <p>&nbsp;</p>
+
+  <script type="text/javascript" src= "graph.js"></script>
+  <script type="text/javascript" src= "force.js"></script>
+  <div id="option">
+      <input name="updateButton" 
+              type="button" 
+			        style="position: absolute; right: 750px; top: 150px"
+              value="View scatter plot graph" 
+              onclick="graphData()" />
+  </div> 
+  <div id="option">
+      <input name="updateButton" 
+              type="button" 
+			        style="position: absolute; right: 500px; top: 150px"
+              value="View force-directed graph" 
+              onclick= "urlData()"/>
+
+<a href="javascript:document.location.reload();"
+ONMOUSEOVER="window.status='Refresh'; return true"
+ONMOUSEOUT="window.status='ah... that was good'">
+<img src="refresh.jpg" 
+width="20" height="31" border="0" style= "position: absolute; right: 320px; top: 150px"/></a>                 
+
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+</body>
+</html>

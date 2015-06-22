@@ -1,0 +1,32 @@
+INFO[0]=  (URI)--> / 
+          (REFERER)--> http://inspirationti.me/websites/simple 
+          (HOST)--> www.borange.com 
+
+INFO[1]=  (URI)--> /css?family=Open+Sans:300 
+          (REFERER)--> http://www.borange.com/ 
+          (HOST)--> fonts.googleapis.com 
+
+INFO[2]=  (URI)--> /ajax/libs/prototype/1.6.0.2/prototype.js 
+          (REFERER)--> http://www.borange.com/ 
+          (HOST)--> ajax.googleapis.com 
+
+INFO[3]=  (URI)--> /ajax/libs/jquery/1.4.1/jquery.min.js 
+          (REFERER)--> http://www.borange.com/ 
+          (HOST)--> ajax.googleapis.com 
+
+INFO[4]=  (URI)--> /stylesheets/borange_main_packaged.css?1410895522 
+          (REFERER)--> http://www.borange.com/ 
+          (HOST)--> www.borange.com 
+
+INFO[5]=  (URI)--> /javascripts/website_packaged.js?1410895519 
+          (REFERER)--> http://www.borange.com/ 
+          (HOST)--> www.borange.com 
+
+INFO[6]=  (URI)--> /images/borange.logo@2x.png?1410895511 
+          (REFERER)--> http://www.borange.com/ 
+          (HOST)--> www.borange.com 
+
+INFO[7]=  (URI)--> /images/bg.grad.png 
+          (REFERER)--> http://www.borange.com/stylesheets/borange_main_packaged.css?1410895522 
+          (HOST)--> www.borange.com 
+
